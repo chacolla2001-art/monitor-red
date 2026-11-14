@@ -1,0 +1,19 @@
+name: Monitor programado
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "*/30 * * * *"
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node src/cli.ts ejemplo.json --html estado.html --md estado.md
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: estado
+          path: estado.*

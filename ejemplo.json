@@ -1,0 +1,6 @@
+[
+  { "nombre": "Sitio web de ejemplo", "tipo": "http", "destino": "https://example.com", "contiene": "Example Domain", "umbralMs": 1500 },
+  { "nombre": "DNS de Google", "tipo": "tcp", "destino": "8.8.8.8", "puerto": 53 },
+  { "nombre": "Resolucion de nombres", "tipo": "dns", "destino": "github.com" },
+  { "nombre": "API de GitHub", "tipo": "http", "destino": "https://api.github.com", "codigos": [200] }
+]
