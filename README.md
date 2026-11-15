@@ -56,4 +56,4 @@ test/            pruebas con servidores locales reales
 Avisos por correo o Telegram, verificación de certificados TLS por vencer y un panel con gráficos de latencia.
 
 ---
-Proyecto de portafolio desarrollado con asistencia de herramientas de IA. Licencia MIT.
+Licencia MIT.
