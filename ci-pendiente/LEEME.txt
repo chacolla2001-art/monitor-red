@@ -1,2 +1,0 @@
-Los flujos de GitHub Actions (pruebas automáticas) están aquí porque la sesión de GitHub aún no tiene el permiso «workflow».
-Para activarlos: mover estos archivos a .github/workflows/ y subir el cambio.
