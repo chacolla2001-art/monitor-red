@@ -1,6 +1,6 @@
-# 📡 Monitor de red
+# Monitor de servicios
 
-> 🇬🇧 [English version](README.en.md)
+> [English version](README.en.md)
 
 ![Página de estado generada por el monitor](docs/captura.png)
 
@@ -39,9 +39,9 @@ Configuración (`ejemplo.json`):
 Salida:
 ```
 Estado     Nombre                 Tipo  Destino                 Latencia  Detalle
-🟢 arriba  Sitio web de ejemplo   http  https://example.com     139 ms    HTTP 200
-🟢 arriba  DNS de Google          tcp   8.8.8.8:53              38 ms     puerto 53 abierto
-🟢 arriba  Resolucion de nombres  dns   github.com              12 ms     resuelve a 140.82.114.4
+arriba  Sitio web de ejemplo   http  https://example.com     139 ms    HTTP 200
+arriba  DNS de Google          tcp   8.8.8.8:53              38 ms     puerto 53 abierto
+arriba  Resolucion de nombres  dns   github.com              12 ms     resuelve a 140.82.114.4
 4 verificaciones: 4 arriba, 0 lentas, 0 caídas.
 ```
 
